@@ -2,6 +2,11 @@
 
 baseURL: https://numerique-recherche.rennes.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: f9d7c49e-8fa6-4a7b-a482-6f650834fac7
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
