@@ -2,7 +2,7 @@
 
 fr:
   title: >-
-    Numérique Recherche
+    Numérique, recherche et temps
   contentDir: content/fr
   languageCode: fr
   languageName: Français
@@ -11,8 +11,6 @@ fr:
 
   permalinks:
     pages_categories: /:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
   taxonomies:
     administrator: administrators
     author: authors
