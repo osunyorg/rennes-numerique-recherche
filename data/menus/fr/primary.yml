@@ -10,5 +10,10 @@ items:
   target: https://numerique-recherche.rennes.osuny.site/type-de-contenu/nos-actions
   kind: url
   new_tab: false
-  children: []
+  children:
+  - title: Cybersécurité
+    target: https://www.entreprendre-rennes.fr/article/cybersecurite/
+    kind: url
+    new_tab: true
+    children: []
 
