@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Fiches pratiques
-  target: https://numerique-recherche.rennes.osuny.site/type-de-contenu/fiches-pratiques
+- title: Fiches d'informations
+  target: https://numerique-recherche.rennes.osuny.site/type-de-contenu/fiches-informations
   kind: url
   new_tab: false
   children: []
