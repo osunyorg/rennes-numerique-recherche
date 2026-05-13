@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/fiches-dinformations/"
 slug: "fiches-dinformations"
 date: 2026-04-03T16:04:55+02:00
-lastmod: 2026-05-13T15:08:31+02:00
+lastmod: 2026-05-13T15:11:28+02:00
 meta:
   hugo:
     permalink: "/fiches-dinformations/"
@@ -19,7 +19,7 @@ meta:
     slug: "fiches-dinformations"
   dates:
     created_at: 2026-04-03T16:04:47+02:00
-    updated_at: 2026-05-13T15:08:31+02:00
+    updated_at: 2026-05-13T15:11:28+02:00
     published_at: 2026-04-03T16:04:55+02:00
 search:
   id: "813fc917-b370-4a46-bae7-655f39dcbef0"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p> Aides pour la recherche, passage à la fibre optique, accompagnement à la  prise en main des outils numériques... Retrouvez, en pratique, toutes  nos fiches d'informations.  </p>
   body: >-
-    <p>Accès au numérique  <br> Internet et Fibre optique  <br> Recherche et enseignement  <br> Politique du temps  </p>
+    <p>Voir toutes les fiches d'informations  </p>
 
 breadcrumbs:
   - title: >-
@@ -100,16 +100,57 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 4
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
   - kind: block
+    template: categories
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      layout: cards
+
+      options:
+        count: false
+        image: false
+        summary: false
+
+      category_kind: pages
+      taxonomy_id: 
+      categories:
+        - permalink: "/recherche-et-enseignement-superieur/"
+          path: "/pages_categories/recherche-et-enseignement-superieur"
+          slug: "recherche-et-enseignement-superieur"
+          file: "content/fr/pages_categories/recherche-et-enseignement-superieur/_index.html"
+          name: ""
+          count: 1
+        - permalink: "/numerique/"
+          path: "/pages_categories/numerique"
+          slug: "numerique"
+          file: "content/fr/pages_categories/numerique/_index.html"
+          name: ""
+          count: 4
+        - permalink: "/bureau-des-temps/"
+          path: "/pages_categories/bureau-des-temps"
+          slug: "bureau-des-temps"
+          file: "content/fr/pages_categories/bureau-des-temps/_index.html"
+          name: ""
+          count: 2
+
+
+  - kind: block
     template: title
     title: >-
-      Accès au numérique
+      Voir toutes les fiches d'informations
     slug: >-
-      acces-au-numerique
+      voir-toutes-les-fiches-d-informations
     ranks:
       base: 2
       self: 2
@@ -117,7 +158,7 @@ contents:
       active: true
       title: 
         value: >-
-          Accès au numérique
+          Voir toutes les fiches d'informations
         heading: 2
 
     data:
@@ -138,61 +179,11 @@ contents:
       options:
         image: false
         subtitle: true
-        categories: false
+        categories: true
         main_summary: true
         summary: true
 
-      layout: cards
-      pages:
-        - permalink: "/fiches-dinformations/accompagnement-au-numerique/"
-          path: "/pages/fiches-dinformations/accompagnement-au-numerique"
-          slug: "accompagnement-au-numerique"
-          file: "content/fr/pages/fiches-dinformations/accompagnement-au-numerique/_index.html"
-          name: >-
-            L'accompagnement au numérique sur le territoire de Rennes Métropole
-
-      quantity: 1
-
-
-  - kind: block
-    template: title
-    title: >-
-      Internet et Fibre optique
-    slug: >-
-      internet-et-fibre-optique
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Internet et Fibre optique
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: pages
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      options:
-        image: false
-        subtitle: true
-        categories: false
-        main_summary: true
-        summary: true
-
-      layout: cards
+      layout: grid
       pages:
         - permalink: "/fiches-dinformations/acceder-a-internet-avec-la-fibre-optique/"
           path: "/pages/fiches-dinformations/acceder-a-internet-avec-la-fibre-optique"
@@ -212,100 +203,18 @@ contents:
           file: "content/fr/pages/fiches-dinformations/acceder-a-la-fibre-optique-pour-les-professionnels/_index.html"
           name: >-
             Accéder à la fibre optique pour les professionnels
-
-      quantity: 3
-
-
-  - kind: block
-    template: title
-    title: >-
-      Recherche et enseignement
-    slug: >-
-      recherche-et-enseignement
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Recherche et enseignement
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: pages
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      options:
-        image: false
-        subtitle: true
-        categories: false
-        main_summary: true
-        summary: true
-
-      layout: cards
-      pages:
+        - permalink: "/fiches-dinformations/accompagnement-au-numerique/"
+          path: "/pages/fiches-dinformations/accompagnement-au-numerique"
+          slug: "accompagnement-au-numerique"
+          file: "content/fr/pages/fiches-dinformations/accompagnement-au-numerique/_index.html"
+          name: >-
+            L'accompagnement au numérique sur le territoire de Rennes Métropole
         - permalink: "/fiches-dinformations/les-aides-a-la-recherche/"
           path: "/pages/fiches-dinformations/les-aides-a-la-recherche"
           slug: "les-aides-a-la-recherche"
           file: "content/fr/pages/fiches-dinformations/les-aides-a-la-recherche/_index.html"
           name: >-
             Les aides à la recherche
-
-      quantity: 1
-
-
-  - kind: block
-    template: title
-    title: >-
-      Politique du temps
-    slug: >-
-      politique-du-temps
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Politique du temps
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: pages
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      options:
-        image: false
-        subtitle: true
-        categories: false
-        main_summary: true
-        summary: true
-
-      layout: cards
-      pages:
         - permalink: "/fiches-dinformations/les-conferences-du-temps/"
           path: "/pages/fiches-dinformations/les-conferences-du-temps"
           slug: "les-conferences-du-temps"
@@ -319,7 +228,7 @@ contents:
           name: >-
             Les ressources temporelles
 
-      quantity: 2
+      quantity: 7
 
 
 
